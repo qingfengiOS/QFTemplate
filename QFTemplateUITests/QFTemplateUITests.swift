@@ -2,7 +2,7 @@
 //  QFTemplateUITests.swift
 //  QFTemplateUITests
 //
-//  Created by 李一平 on 2019/1/7.
+//  Created by 情风 on 2019/1/7.
 //  Copyright © 2019 qingfengiOS. All rights reserved.
 //
 

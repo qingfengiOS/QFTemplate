@@ -14,6 +14,9 @@
 		FD01B70921E34E4600F80ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD01B70721E34E4600F80ED0 /* LaunchScreen.storyboard */; };
 		FD01B71421E34E4600F80ED0 /* QFTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD01B71321E34E4600F80ED0 /* QFTemplateTests.swift */; };
 		FD01B71F21E34E4600F80ED0 /* QFTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD01B71E21E34E4600F80ED0 /* QFTemplateUITests.swift */; };
+		FD01B72F21E34ED700F80ED0 /* AbstractSandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD01B72E21E34ED700F80ED0 /* AbstractSandwich.swift */; };
+		FD01B73121E350FF00F80ED0 /* ReubenSandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD01B73021E350FF00F80ED0 /* ReubenSandwich.swift */; };
+		FD01B73321E352C600F80ED0 /* Hamburger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD01B73221E352C600F80ED0 /* Hamburger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		FD01B71A21E34E4600F80ED0 /* QFTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD01B71E21E34E4600F80ED0 /* QFTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFTemplateUITests.swift; sourceTree = "<group>"; };
 		FD01B72021E34E4600F80ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD01B72E21E34ED700F80ED0 /* AbstractSandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractSandwich.swift; sourceTree = "<group>"; };
+		FD01B73021E350FF00F80ED0 /* ReubenSandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReubenSandwich.swift; sourceTree = "<group>"; };
+		FD01B73221E352C600F80ED0 /* Hamburger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamburger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,8 @@
 		FD01B6FD21E34E4500F80ED0 /* QFTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				FD01B72D21E34E9700F80ED0 /* 三明治(抽象类) */,
+				FD01B72C21E34E9700F80ED0 /* 各种具体三明治 */,
 				FD01B6FE21E34E4500F80ED0 /* AppDelegate.swift */,
 				FD01B70021E34E4500F80ED0 /* ViewController.swift */,
 				FD01B70221E34E4500F80ED0 /* Main.storyboard */,
@@ -123,6 +131,23 @@
 				FD01B72021E34E4600F80ED0 /* Info.plist */,
 			);
 			path = QFTemplateUITests;
+			sourceTree = "<group>";
+		};
+		FD01B72C21E34E9700F80ED0 /* 各种具体三明治 */ = {
+			isa = PBXGroup;
+			children = (
+				FD01B73021E350FF00F80ED0 /* ReubenSandwich.swift */,
+				FD01B73221E352C600F80ED0 /* Hamburger.swift */,
+			);
+			path = "各种具体三明治";
+			sourceTree = "<group>";
+		};
+		FD01B72D21E34E9700F80ED0 /* 三明治(抽象类) */ = {
+			isa = PBXGroup;
+			children = (
+				FD01B72E21E34ED700F80ED0 /* AbstractSandwich.swift */,
+			);
+			path = "三明治(抽象类)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD01B72F21E34ED700F80ED0 /* AbstractSandwich.swift in Sources */,
+				FD01B73121E350FF00F80ED0 /* ReubenSandwich.swift in Sources */,
 				FD01B70121E34E4500F80ED0 /* ViewController.swift in Sources */,
 				FD01B6FF21E34E4500F80ED0 /* AppDelegate.swift in Sources */,
+				FD01B73321E352C600F80ED0 /* Hamburger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
